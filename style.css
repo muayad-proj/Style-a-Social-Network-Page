@@ -1,0 +1,83 @@
+#container{
+    height: 1000px;
+    width: 870px;
+    background-color: rgb(235, 232, 232);
+    border: 2px solid rgb(250, 244, 244);
+    margin: auto;
+
+}
+
+#left_hadder{
+    height: 328px;
+    width: 850px;
+    background-color: rgb(50, 50, 150);
+    position: relative;
+    left: 10px;
+
+}
+#right_hadder{
+
+    height: 170px;
+    width: 150px;
+    background-color: rgb(54, 54, 155);
+    border: rgb(51, 47, 47) 2px solid;
+    position: relative;
+    left: 20px;
+    bottom: 160px;
+    z-index: 1;
+}
+#personal_info{
+text-align: center;
+color: white;
+position: relative;
+    left: -170px;
+    bottom: 300px;
+    z-index: 2;
+}
+#tool_bar{
+
+    height: 40px;
+    width: 850px;
+    background-color:rgb(211, 219, 215);
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 290px;   
+    
+
+}
+#tool_b_cont  {
+position: relative;
+left:180px;
+}
+#tool_bar span{
+    padding: 0 6px;
+}
+
+#colume1{
+    height: 640px;
+    width: 328px;
+    background-color:rgb(249, 252, 250);
+    position: relative;
+    border: rgb(236, 228, 228) 1px solid;
+    bottom: 285px;
+    left: 10px;
+
+}
+#colume2{
+height: 640px;
+width: 512px;
+background-color:rgb(249, 252, 250);
+border: rgb(236, 228, 228) 1px solid;
+position: relative;
+left:348px;
+bottom:925px; 
+}
+#button{
+position:relative;
+bottom: 1650px;
+left:550px;
+z-index: 2;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
